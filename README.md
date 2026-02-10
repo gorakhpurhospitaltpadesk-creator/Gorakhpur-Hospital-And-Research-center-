@@ -117,3 +117,115 @@ h2 {
         </p>
     </div>
 </section>
+<section class="doctor-section">
+  <h2>Our Doctors</h2>
+
+  <div class="doctor-list">
+
+    <div class="doctor-card">
+      <h3>डॉ. राजेश श्रीवास्तव</h3>
+      <p>एम.डी. (मेडिसिन)</p>
+      <p>हृदय, मस्तिष्क, उदर, गुर्दा, मधुमेह, छाती एवं एलर्जी रोग विशेषज्ञ</p>
+    </div>
+
+    <div class="doctor-card">
+      <h3>डॉ. मुर्ताक अली</h3>
+      <p>हृदय रोग विशेषज्ञ</p>
+    </div>
+
+    <div class="doctor-card">
+      <h3>डॉ. सी. पी. सिंह</h3>
+      <p>एम.एस. (आर्थो)</p>
+    </div>
+
+    <div class="doctor-card">
+      <h3>डॉ. अमित बंसल</h3>
+      <p>एम.एस. (हड्डी एवं जोड़ रोग विशेषज्ञ)</p>
+    </div>
+
+    <div class="doctor-card">
+      <h3>डॉ. दीपक कुमार श्रीवास्तव</h3>
+      <p>नेफ्रोलॉजी</p>
+    </div>
+
+    <div class="doctor-card">
+      <h3>डॉ. रोहित रंजन</h3>
+      <p>एम.सी.एच. (यूरोलॉजी)</p>
+    </div>
+
+    <div class="doctor-card">
+      <h3>डॉ. प्रतीक श्रीवास्तव</h3>
+      <p>डी.एन.बी. (शिशु एवं बाल रोग विशेषज्ञ)</p>
+    </div>
+
+    <div class="doctor-card">
+      <h3>डॉ. शारिक अहमद</h3>
+      <p>एम.एस. (जनरल सर्जरी)</p>
+    </div>
+
+    <div class="doctor-card">
+      <h3>डॉ. शुभांकर गुप्ता</h3>
+      <p>एम.एस. (नाक, कान, गला)</p>
+    </div>
+
+    <div class="doctor-card">
+      <h3>डॉ. प्रशांत रंजन गुप्ता</h3>
+      <p>एम.सी.एच. यूरोलॉजिस्ट</p>
+    </div>
+
+    <div class="doctor-card">
+      <h3>डॉ. संतोष तिवारी</h3>
+      <p>एम.एस. (आई)</p>
+    </div>
+
+    <div class="doctor-card">
+      <h3>डॉ. भरतभूषण अवस्थी</h3>
+      <p>स्किन एवं एलर्जी रोग विशेषज्ञ</p>
+    </div>
+
+    <div class="doctor-card">
+      <h3>डॉ. नित्यानन्द सिंह</h3>
+      <p>एम.सी.एच. (प्लास्टिक सर्जन)</p>
+    </div>
+
+    <div class="doctor-card">
+      <h3>डॉ. बुरहान अली</h3>
+      <p>डी.जी.ओ. (स्त्री रोग विशेषज्ञ)</p>
+    </div>
+
+    <div class="doctor-card">
+      <h3>डॉ. शबाना</h3>
+      <p>डी.एन.बी. (नेत्र)</p>
+    </div>
+
+  </div>
+</section> 
+<style>
+.doctor-section {
+  padding: 40px;
+  background: #f7f9fc;
+}
+.doctor-section h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.doctor-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+.doctor-card {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.doctor-card h3 {
+  margin: 0 0 8px;
+  color: #0a3d62;
+}
+.doctor-card p {
+  margin: 4px 0;
+  font-size: 14px;
+}
+</style>
